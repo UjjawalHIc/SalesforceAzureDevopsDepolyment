@@ -14,7 +14,7 @@ steps:
   inputs:
     workingDirectory: ''
     buildFile: 'build/build.xml'
-    options: -Dsalesforce.loginurl=$(salesforce.loginurl) -Dsalesforce.password=$(salesforce.password) -Dsalesforce.loginurl=$(salesforce.loginurl) -Dsalesforce.testLevel=$(salesforce.testLevel)
+    options: -Dsalesforce.loginurl=$(salesforce.loginurl) -Dsalesforce.password=$(salesforce.password) -Dsalesforce.username=$(salesforce.username) -Dsalesforce.testLevel=$(salesforce.testLevel)
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
