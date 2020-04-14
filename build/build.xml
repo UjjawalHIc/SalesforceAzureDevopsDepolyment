@@ -20,10 +20,10 @@
     <condition property="sf.sessionId" value=""> <not> <isset property="sf.sessionId"/> </not> </condition> -->
 
     
-  <property="sf.password" value="${salesforce.password}"/>
-  <property="sf.username" value="${salesforce.username}"/>
-  <property="sfdc.serverurl" value="${salesforce.serverurl}"/>
-  <property="sf.testLevel" value="${salesforce.testLevel}"/>
+  <property name="sf.password" value="${salesforce.password}"/>
+  <property name="sf.username" value="${salesforce.username}"/>
+  <property name="sfdc.serverurl" value="${salesforce.serverurl}"/>
+  <property name="sf.testLevel" value="${salesforce.testLevel}"/>
 	
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
     <target name="test">
