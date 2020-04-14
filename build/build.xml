@@ -46,7 +46,7 @@
 			username="${sf.username}"
 			password="${sf.password}"
 			serverurl="${sf.serverurl}"
-			unpackaged="../src/package.xml"/>
+			unpackaged="./package.xml"/>
     </target>
 
     <!-- Retrieve an unpackaged set of metadata from your org -->
