@@ -11,6 +11,10 @@
         </classpath>
     </taskdef>
 
+    <path id="classpath">
+      <fileeset dir="${lib.dir}" includes="**/*.jar" >
+    </path>
+
     <!-- Setting default value for username, password and session id properties to empty string 
          so unset values are treated as empty. Without this, ant expressions such as ${sf.username}
          will be treated literally.
