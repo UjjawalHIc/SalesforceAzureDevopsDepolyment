@@ -2,7 +2,7 @@
 
     <property file="build.properties"/>
     <property environment="env"/>
-    <property name="ant.jar" value="ant-salesforce.jar">
+    <property name="ant.jar" value="ant-salesforce.jar"/>
 
 
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
