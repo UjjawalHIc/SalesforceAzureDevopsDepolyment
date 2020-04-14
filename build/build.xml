@@ -24,15 +24,15 @@
     <condition property="sf.sessionId" value=""> <not> <isset property="sf.sessionId"/> </not> </condition> -->
 
     
-  <!--<property name="sf.password" value="${salesforce.password}"/>
+  <property name="sf.password" value="${salesforce.password}"/>
   <property name="sf.username" value="${salesforce.username}"/>
   <property name="sfdc.serverurl" value="${salesforce.serverurl}"/>
-  <property name="sf.testLevel" value="${salesforce.testLevel}"/>-->
+  <property name="sf.testLevel" value="${salesforce.testLevel}"/>
 
-  <property name="sf.password" value="Divider@12345"/>
+  <!--<property name="sf.password" value="Divider@12345"/>
   <property name="sf.username" value="rajput@hicglobalsolutions.com"/>
   <property name="sfdc.serverurl" value="https://login.salesforce.com"/>
-  <property name="sf.testLevel" value="all"/>
+  <property name="sf.testLevel" value="all"/>-->
 	
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
     <target name="test">
