@@ -12,7 +12,7 @@
     </taskdef>
 
     <path id="classpath">
-      <fileeset dir="${lib.dir}" includes="**/*.jar" />
+      <fileset dir="${lib.dir}" includes="**/*.jar" />
     </path>
 
     <!-- Setting default value for username, password and session id properties to empty string 
