@@ -5,6 +5,8 @@
     <property name="ant.jar" value="ant-salesforce.jar"/>
 
 
+ 
+
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
         <classpath>
             <pathelement location="${ant.jar}" />        	
@@ -151,5 +153,10 @@
 	<!-- Retrieve the information on all supported metadata type -->
     <target name="describeMetadata">
       <sf:describeMetadata username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}"/>
+    </target>
+
+
+    <target name="info"> 
+       <echo message="Username => ${sf.username}, testLevel => ${salesforce.testLevel}, ServerURL => ${sf.serverurl} "/>
     </target>
 </project>
