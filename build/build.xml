@@ -45,7 +45,7 @@
        retrieveTarget="../src"
        unpackaged="./package.xml"
        
-  >
+  />
 
 </target>
 
