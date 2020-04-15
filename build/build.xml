@@ -48,12 +48,12 @@
        unpackaged="./package.xml"
        
   />-->
-  <mkdir dir="retrieveOutput"/>
+  <mkdir dir="MyPkg"/>
 
 <!-- Retrieve the contents into another directory -->
 
 
-  <sf:retrieve maxPoll="${sf.maxPoll}" serverurl="${sf.serverurl}"  password="${sf.password}" username="${sf.username}" packageNames="MyPkg" retrieveTarget="retrieveOutput"/>
+  <sf:retrieve maxPoll="${sf.maxPoll}" serverurl="${sf.serverurl}"  password="${sf.password}" username="${sf.username}" packageNames="MyPkg" retrieveTarget="MyPkg"/>
 
 </target>
 
