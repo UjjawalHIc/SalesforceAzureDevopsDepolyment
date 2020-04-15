@@ -38,7 +38,7 @@
 	
 
 <target name="retrieve" depends="info"> 
-  <mkdir dir="../src"/>   
+ <!-- <mkdir dir="../src"/>   
   <sf:retrieve   
        username="${sf.username}"
        password="${sf.password}"  
@@ -47,7 +47,13 @@
        retrieveTarget="../src"
        unpackaged="./package.xml"
        
-  />
+  />-->
+  <mkdir dir="retrieveOutput"/>
+
+<!-- Retrieve the contents into another directory -->
+
+
+  <sf:retrieve maxPoll="${sf.maxPoll}" serverurl="${sf.serverurl}"  password="${sf.password}" username="${sf.username}" packageNames="MyPkg" retrieveTarget="retrieveOutput"/>
 
 </target>
 
