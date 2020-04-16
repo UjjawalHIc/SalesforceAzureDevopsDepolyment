@@ -5,9 +5,6 @@
         <members>SampleFailingTestClass</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>SampleAccountTrigger</members>
-        <name>ApexTrigger</name>
-    </types>
+   
     <version>48.0</version>
 </Package>
