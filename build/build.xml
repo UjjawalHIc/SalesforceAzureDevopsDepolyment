@@ -16,7 +16,7 @@
     
   <property name="sf.password" value="${salesforce.password}"/>
   <property name="sf.username" value="${salesforce.username}"/>
-  <property name="sf.serverurl" value="${salesforce.serverurl}"/>
+  <property name="sf.serverurl" value="${salesforce.loginurl}"/>
   <property name="sf.testLevel" value="${salesforce.testLevel}"/>
 
 	
